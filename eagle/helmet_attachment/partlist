@@ -1,0 +1,45 @@
+Partlist
+
+Exported from helmetpcb.sch at 7/2/12 2:13 AM
+
+EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value             Device         Package       Library            Sheet
+
+C1       1uF               CAP0402        C0402         SparkFun           1
+C3       0.1uF             CAP0402        C0402         SparkFun           1
+C4       0.1uF             CAP0402        C0402         SparkFun           1
+C5       0.1uF             CAP0402        C0402         SparkFun           1
+C6       0.1uF             CAP0402        C0402         SparkFun           1
+C10      0.1uF             CAP0402        C0402         SparkFun           1
+C13      10uF              CAP_POL1206    EIA3216       SparkFun           1
+C19      10uF              CAP_POL1206    EIA3216       SparkFun           1
+D3       Green             LED0603        LED-0603      SparkFun           1
+JP1      LUXEON LED        PINHD-1X2      1X02          pinhead            1
+JP2                        M02PTH         1X02          SparkFun           1
+JP3      LUXDRIVE bucktoot PINHD-1X2      1X02          pinhead            1
+LED2     Red               LED0603        LED-0603      SparkFun           1
+Q1       #MHz              RESONATORSMD   RESONATOR-SMD SparkFun           1
+Q2       MMBT3906LT1SMD    MMBT3906LT1SMD SOT23-BEC     transistor-pnp     1
+R1       10K               RESISTOR0402   C0402         SparkFun           1
+R2       10K               RESISTOR0402   C0402         SparkFun           1
+R3       330               RESISTOR0402   C0402         SparkFun           1
+R4       4.7K              RESISTOR0402   C0402         SparkFun           1
+R5       4.7K              RESISTOR0402   C0402         SparkFun           1
+R6       330               RESISTOR0402   C0402         SparkFun           1
+R7       10K               RESISTOR0402   C0402         SparkFun           1
+R8       10K               RESISTOR0402   C0402         SparkFun           1
+R9       22K               RESISTOR0402   C0402         SparkFun           1
+R10      33k               RESISTOR0402   C0402         SparkFun           1
+R11      4.7k              RESISTOR0402   C0402         SparkFun           1
+R12      4.7k              RESISTOR0402   C0402         SparkFun           1
+SV1      ICSP              MA03-2         MA03-2        con-lstb           1
+U$1      ATTINY84A-MU      ATTINY24QFN    QFN20         SparkFun-DigitalIC 1
+U$6      LUXDRIVE3021      LUXDRIVE_3021  FE07          gumstix            1
+U2       LP2992            V_REG_LDOSMD   SOT23-5       SparkFun           1
+U3       BSP772T           BSP772T        DSO-8-2       gumstix            1
+U4       BSP772T           BSP772TDSO-8   SO08          gumstix            1
+X1       53261-02          53261-02       53261-02      con-molex          1
+X2       53261-03          53261-03       53261-03      con-molex          1
