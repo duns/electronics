@@ -1,0 +1,64 @@
+Partlist
+
+Exported from helmetpcb.brd at 10/3/12 8:40 PM
+
+EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value               Package      Library      Position (mm)         Orientation
+
+GND      WIREPADSMD2,54-5,08 SMD2,54-5,08 wirepad      (12.7 1.87)           R90
+L+       WIREPAD1,6/0,8      1,6/0,8      wirepad      (11.2 17)             R0
+L-       WIREPAD2,15/1,0     2,15/1,0     wirepad      (2.6 19.6)            R0
+LED1+                        SMD2,54-5,08 wirepad      (3.14 14.57)          MR90
+LED1-                        SMD2,54-5,08 wirepad      (3.14 6.95)           MR90
+LED2+                        SMD2,54-5,08 wirepad      (28.864 1.902)        MR90
+LED2-                        SMD2,54-5,08 wirepad      (29.01 9.63)          MR90
+VIN      WIREPADSMD2,54-5,08 SMD2,54-5,08 wirepad      (20.32 1.87)          R270
+VIN1     WIREPADSMD2,54-5,08 SMD2,54-5,08 wirepad      (20.32 1.87)          MR270
+_GND     WIREPADSMD2,54-5,08 SMD2,54-5,08 wirepad      (12.7 1.87)           MR270
+
+Resistors 0402 Vishay
+R2,R3  330   1738843RL 25
+R7-11  10k    1739107RL 25
+R1,R4  30k   2140891RL 50
+R5     220k    2140958RL 50
+R6     330k   2140980RL 50
+
+Capacitors
+Tantalum 3216
+C3,C7 10uF  2112921
+Ceramic
+0603
+C1    1uF  1327680RL
+0402
+C2,C4,C5,C6	0.1uF  1867948RL    
+
+LEDs 0603 OSRAM
+LED2   Green  1226372RL
+LED1   Red    1226389RL
+
+Button
+S1 B3F-3155   1703877  
+
+ICs
+U1,U2  LDU0516S350  2082733
+U3     LP2992    1685561
+U4 ATTiny84A	1972171
+U5       MAX6816	2085162
+U6       FPF2106   	1084441RL
+
+
+CONs
+X1      53398-0271       1125366
+X2	53047-0610  9733078
+
+LEDs
+MCPCB 951-803267 (mouser) 
+CA12264"LR2-M-WHT 2084103
+LXML-PWC1-0100	1555331
+----
+XMLAWT-00-0000-0000T5051-STAR 1876352
+
+Logitech C920
