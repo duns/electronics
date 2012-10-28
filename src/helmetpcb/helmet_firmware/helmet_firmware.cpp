@@ -35,7 +35,7 @@
 #define LEDLEVEL2 180
 #define LEDLEVEL1 90
 #define LEDLEVEL0 0
-#define VBATTHRESH 9.2
+#define VBATTHRESH 7.0
 #define VBATTHRESH_CRIT 6.9
 #define SLEEPIDLESECS 4
 #define BATCHECKSECS 10
@@ -168,7 +168,7 @@ void check_bat()
  
 //  int i;
   analog1=analogRead(1);
-  volts=(analog1/1023.0)*arefVolts*((220+330)/330.0);
+  volts=(analog1/1023.0)*arefVolts*((220+330)/220.0);
       
 
 //  for(i=0;i<2*volts;i++)
