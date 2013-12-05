@@ -31,6 +31,9 @@
 #ifndef sbi
 #define sbi(sfr, bit) (_SFR_BYTE(sfr) |= _BV(bit))
 #endif
+#ifndef WDTCSR
+#define WDTCSR WDTCR
+#endif
 #define LEDLEVEL3 255
 #define LEDLEVEL2 180
 #define LEDLEVEL1 90
